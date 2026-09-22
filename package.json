@@ -1,0 +1,30 @@
+{
+  "name": "screenshot-mcp-server",
+  "version": "1.1.0",
+  "description": "Secure MCP server for capturing screenshots and HTML content",
+  "main": "mcp_screenshot_server_node.js",
+  "scripts": {
+    "start": "node mcp_screenshot_server_node.js",
+    "test": "npm run test:unit && npm run test:integration",
+    "test:unit": "node test/validator.test.js",
+    "test:integration": "node test/integration.test.js"
+  },
+  "keywords": [
+    "mcp",
+    "screenshot",
+    "puppeteer",
+    "json-rpc"
+  ],
+  "author": "Gunter Kreck",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^24.17.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gunterk1/screenshot-mcp-server.git"
+  }
+}

@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+
+# Screenshot output (the two committed examples under shots/ are kept deliberately)
+shots/*.png
+!shots/test.png
+shots/shots/*.png
+!shots/shots/taxtastic.png
+
+# Editor / OS
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
